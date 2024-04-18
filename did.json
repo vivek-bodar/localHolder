@@ -8,7 +8,21 @@
     "authentication": [
         "did:web:vivek-bodar.github.io:localHolder#key-1"
     ],
-    "service": [],
+    "service": [
+        {
+            "id": "did:web:vivek-bodar.github.io:localHolder#did-communication",
+            "type": "did-communication",
+            "serviceEndpoint": "http://192.168.1.8:9000",
+            "recipient_keys": [
+              "did:web:vivek-bodar.github.io:localHolder#key-1"
+            ],
+            "routing_keys": [],
+            "accept": [
+              "didcomm/aip2;env=rfc19"
+            ],
+            "priority": 1
+          }
+    ],
     "verificationMethod": [
         {
             "id": "did:web:vivek-bodar.github.io:localHolder#key-1",
