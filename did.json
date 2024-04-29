@@ -12,7 +12,7 @@
         {
             "id": "did:web:vivek-bodar.github.io:localHolder#did-communication",
             "type": "did-communication",
-            "serviceEndpoint": "http://192.168.155.10:9000",
+            "serviceEndpoint": "http://192.168.1.8:9000",
             "recipient_keys": [
               "did:web:vivek-bodar.github.io:localHolder#key-1"
             ],
@@ -28,7 +28,7 @@
             "id": "did:web:vivek-bodar.github.io:localHolder#key-1",
             "type": "Ed25519VerificationKey2018",
             "controller": "did:web:vivek-bodar.github.io:localHolder",
-            "publicKeyBase58": "2qLZMH2pFG94i1Hm19Ris4PqbsvNLeTxopsLHrf4rkJh"
+            "publicKeyBase58": "AESMvK3RFdtdU7n8sxQEBHpyskeLL98ZzjpFJL5MCxNj"
         }
     ],
     "alsoKnownAs": [],
